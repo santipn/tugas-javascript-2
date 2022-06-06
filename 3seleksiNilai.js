@@ -9,7 +9,7 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
         }
     } else if (nilaiAkhir < nilaiAwal) {
         return "Nilai Akhir harus lebih besar dari Nilai Awal"
-    } else if (dataArray.length <= 5) {
+    } else if (dataArray.length < 6) {
         return "Jumlah Angka dalam dataArray harus lebih dari 5"
     }
 }
